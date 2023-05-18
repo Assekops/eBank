@@ -1,0 +1,136 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+/* .bg-image {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    filter: brightness(0.6);
+} */
+/* Hero Image */
+.hero-image {
+    background-size: cover;
+    min-height: 80vh;
+    position: relative;
+    color: #55A630;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.hero-image h2 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.color-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.2); */
+}
+
+@media(max-width: 768px) {
+    .hero-image {
+        min-height: 30vh;
+    }
+
+    .hero-image h {
+        font-size: calc(1.525rem+3.3vw);
+        font-weight: bold;
+        font-family: 'Inter', sans-serif;
+    }
+}
+
+.navbar,
+.dropdown-menu {
+    background: rgba(0, 0, 0, 0.7);
+    transition: 1s;
+}
+
+.navbar-brand {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.navbar-scrolled {
+    background-color: black;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-nav a {
+    font-weight: 400;
+    color: #fff !important;
+    margin: 0 20px;
+
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid green;
+    margin-bottom: -1px;
+
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    pointer-events: none;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+
+}
+
+.bg-jumbotron {
+    background-image: linear-gradient(to right, #2ecc71, #2980b9);
+}
+
+.site-footer {
+    background-image: linear-gradient(to right, #2ecc71, #2980b9);
+    padding: 20px 0;
+}
+
+.footer-left li a {
+    color: black;
+}
+
+.footer-right a {
+    color: black;
+}
+
+/*Footer Style*/
+
+
+/* 
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/background.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 80vh;
+}
+
+.hero .hero-content {
+    max-width: 850px;
+    margin-top: 5%;
+    padding: 0 95px;
+}
+
+.hero .hero-content h1 {
+    color: #55A630;
+  
+    font-size: 70px;
+    margin: 15px 0;
+}
+
+.hero .hero-content p {
+    color: #ceced4;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+} */
